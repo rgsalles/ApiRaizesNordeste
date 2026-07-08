@@ -1,0 +1,245 @@
+# Pasta de Build e Objetos Compilados
+bin/
+obj/
+.vs/
+.vscode/
+
+# Arquivos de Configuração Visual Studio
+.sln.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+*.vcxproj.user
+
+# Artefatos de Build
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Pacotes NuGet
+*.nupkg
+*.snupkg
+*.symbols.nupkg
+.nuget/
+packages/
+!packages/repositories.config
+.NuGet.Config
+
+# Resultados de Testes
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+.coverage/
+htmlcov/
+
+# Artefatos de Publicação
+PublishProfiles/
+*.publish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# Arquivos de Banco de Dados
+*.mdf
+*.ldf
+*.ndf
+*.sqlite
+*.db
+*.dbmdl
+*.jfm
+
+# Arquivos Locais e Temporários
+appsettings.local.json
+appsettings.Development.local.json
+appsettings.*.local.json
+launchSettings.Development.json
+launchSettings.*.json
+.env
+.env.local
+.env.*.local
+local_settings.py
+*.local
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+*.code-workspace
+
+# Rider IDE
+.idea/
+*.sln.iml
+*.swp
+*.swo
+.DS_Store
+
+# Arquivos Gerados
+.generated/
+*.generated.cs
+*.g.cs
+*.g.i.cs
+
+# Resharper
+.resharper
+.resharper.user
+*.resharper.user
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Entity Framework
+*.bak
+*.backup
+Migrations/History/
+
+# FxCop
+FxCopResults.xml
+
+# StyleCop
+StyleCopReport.xml
+
+# Análise Estática
+*.sarif
+codeAnalysisLog.xml
+fxcop-report.xml
+StyleCopReport.xml
+
+# Artefatos de Build Contínuo
+.jenkins/
+.github/workflows/artifacts/
+artifacts/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+docker-compose.override.local.yml
+
+# Arquivos Temporários do SO
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*~
+~*
+
+# Certificados e Chaves
+*.pfx
+*.pem
+*.key
+*.crt
+*.p12
+*.p7b
+
+# Logs e Rastreamento
+logs/
+*.log
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.stackdump
+
+# Dependências Locais
+node_modules/
+dist/
+build/
+
+# Arquivos Específicos de Desenvolvimento
+.vscode-test/
+.nyc_output/
+coverage/
+.pytest_cache/
+.tox/
+.hypothesis/
+
+# Arquivos de Sincronização
+sync.lock
+*.sync-conflict-*
+
+# Arquivos Temporários do VS
+.vs/
+.vsix
+
+# Arquivo de Processamento
+.sonarqube/
+
+# OpenCover
+OpenCover/
+
+# Coverage Reports
+coverage.opencover.xml
+coverage.cobertura.xml
+
+# Arquivos de Documentação Gerados
+docs/_build/
+site/
+
+# Arquivos de Cache
+.cache/
+.eslintcache
+.stylelintcache
+
+# Arquivos de Performance
+perf/
+metrics/
+
+# Arquivos de Segredos
+secrets.json
+secrets.*.json
+!secrets.template.json
+
+# Certificados Locais
+certificates/
+certs/
+
+# Arquivos de Compilação Específicos
+*.ilk
+*.pch
+*.pdb
+*.idb
+*.exp
+*.lib
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Arquivos de Dependências Resolvidas
+.paket/paket.exe
+paket-files/
+
+# Arquivos de Ferramentas Internas
+.tools/
+tools/nuget.exe
+
+# Artefatos de Análise
+_NCrunch_*/
+*.ncrunchproject
+*.ncrunchsolution
+
+# Arquivos Específicos do Projeto
+.bowerrc
+bower_components/
+
+# LaTeX
+*.aux
+*.glo
+*.idx
+*.log
+*.toc
+*.ist
+
+# Arquivos Temporários de Merge
+*.orig
