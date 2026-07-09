@@ -1,8 +1,11 @@
 # Pasta de Build e Objetos Compilados
 bin/
 obj/
+**/[Bb]in/
+**/[Oo]bj/
 .vs/
 .vscode/
+.gitkeep
 
 # Arquivos de Configuração Visual Studio
 .sln.iml
